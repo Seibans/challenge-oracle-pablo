@@ -1,7 +1,5 @@
 # 🔒 Encriptador de Texto 🔐
 
-![Banner del Proyecto](./assets/banner.png)
-
 ## ¡Bienvenido a mi Proyecto **Encriptador de Texto**! 🌟
 
 Este proyecto, hecho por **Pablo Fernández Aduviri** como parte del desafío del programa **ONE**, es una aplicación web desarrollada con **HTML**, **CSS** y **JavaScript**. El objetivo es ofrecer una herramienta sencilla, visualmente atractiva y funcional para **encriptar** y **desencriptar** texto, cumpliendo con las expectativas del programa y demostrando mis habilidades en desarrollo web. ¡Espero que este proyecto refleje mi compromiso y pasión por la tecnología! 🌟
