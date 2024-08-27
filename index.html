@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+</head>
+
+<body>
+	<main class="container">
+		<div class="content">
+			<div class="encriptar">
+				<div class="interaccion">
+					<textarea name="texto" class="texto" id="texto" cols="30" rows="10"
+						placeholder="Ingresa el texto aquí"></textarea>
+
+					<div class="terminos">
+						<p><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos.</p>
+					</div>
+					<div class="botones">
+						<button class="btn-encriptar" type="button" onclick="encriptar()">
+							Encriptar
+						</button>
+						<button class="btn-desencriptar" type="button" onclick="desencriptar()">
+							Desencriptar
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="encriptado" id="encriptado">
+				<img src="./img/pablo.gif" alt="" id="muñeco" />
+				<div class="mensaje-encriptado" id="mensaje-encriptado">
+					<h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+					<p id="parrafo">
+						Ingresa el texto que deseas encriptar o desencriptar
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
