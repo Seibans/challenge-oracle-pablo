@@ -266,4 +266,17 @@ textarea:active {
 		height: 11em;
 		gap: 10px;
 	}
+
+	.mensaje-e {
+		width: 100%;
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 150%;
+		text-align: left !important;
+		color: #495057;
+		margin-bottom: 100px;
+	}
+	
 }
